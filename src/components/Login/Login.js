@@ -8,6 +8,7 @@ const Login = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div className="card-body">
+          <h5 className="text-2xl text-center font-medium text-gray-900 dark:text-white">Log In</h5>
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
