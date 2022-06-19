@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h1 className=' text-center text-5xl font-mono font-bold '> Does it work ? ?????</h1>
+      <h1 className=' text-center text-5xl font-mono font-bold '> Does it work ? ok now</h1>
     </div>
   );
 }
