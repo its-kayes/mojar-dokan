@@ -50,8 +50,8 @@ const Navbar = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div> */}
-                    <div class="navbar-end">
-                        <Link to='login' class="btn"> Shop Now </Link>
+                    <div className="navbar-end">
+                        <Link to='login' className="btn bg-primary"> logIn </Link>
                     </div>
                 </div>
 
