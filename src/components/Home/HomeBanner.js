@@ -1,6 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const HomeBanner = () => {
+
+  let navigate = useNavigate();
+
+  let freshFood = (event) => {
+    navigate('/food')
+  }
+
   return (
     <div className="border m-2 p-8">
       <p className="text-4xl font-mono text-center -6 text-gray-600 font-bold">
@@ -8,7 +16,7 @@ const HomeBanner = () => {
         Catagories{" "}
       </p>
       <div className="flex justify-around mt-10 mb-20">
-        <div className="card w-96 h-full bg-base-100 shadow-xl image-full">
+        <div onClick={freshFood} className="card w-96 h-full bg-base-100 shadow-xl image-full">
           <figure>
             <img src="vegetables.jpg" alt="Vegetables" />
           </figure>
