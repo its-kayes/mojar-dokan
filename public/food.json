@@ -1,0 +1,95 @@
+[
+    {
+        "id": "1",
+        "postId": 3,
+        "name": "Arduino Uno",
+        "description": "Arduino Uno is the best board to get started with embedded system programming. If you are a beginner in this field, then this Arduino Uno can be a robust board that you can start playing with it. On this open-source Arduino platform, you may find the full schematic and PCB layout online ",
+        "price": 1200,
+        "stock": 1000,
+        "minOrder": 50,
+        "img": "https://i.ibb.co/Dkb79M1/Arduino-Uno.jpg"
+    },
+    {
+        "id": "2",
+        "postId": 3,
+        "name": "Raspberry Pi Pico",
+        "description": "Raspberry Pi Pico is a low-cost, high-performance microcontroller board with flexible digital interfaces. Microcontrollers are tiny computers, but they tend to lack large volume storage and peripheral devices that you can plug in (for example, keyboards or monitors).",
+        "price": 250,
+        "stock": 1000,
+        "minOrder": 50,
+        "img": "https://i.ibb.co/nzTQGj5/raspberry-pi-pico.jpg"
+    },
+    {
+        "id": "3",
+        "postId": 3,
+        "name": "DC Motor",
+        "description": "ts casing is made of rustproof material mainly steel with some protective coatings, with few plastic parts. It is a high torque high power device for mid to high-power applications generally in robotics, quadcopters, and industrials.",
+        "price": 199,
+        "stock": 1000,
+        "minOrder": 50,
+        "img": "https://i.ibb.co/kHKmtrG/Motor.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Lodestar Soldering Iron",
+        "description": "Product details of LODESTAR Professional Soldering Iron  60W. Handle with lights, non-slip rubber sheath, more comfortable to use it. High insulated ceramic heater provides fast heat conduction. Use burn-proof silicone line, more secure.",
+        "price": 49,
+        "stock": 1000,
+        "minOrder": 50,
+        "img": "https://i.ibb.co/VtQbZtL/Lodestar-Soldering-Iron.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Raspberry Pi4 Aluminum Casewith Fan",
+        "description": "This case is a 2 part Aluminum case for Raspberry pi 4 (All RAM variants) with Double Cooling Fan. The whole top part of the case acts as heasink. Use the thermal pads provided with this case to ensure proper thermal contact between the top part of the case and raspberry pi SOC & RAM.",
+        "price": 999,
+        "stock": 1000,
+        "minOrder": 50,
+        "img": "https://i.ibb.co/mXyLQpK/Raspberry-Pi4-Aluminum-Casewith-Fan.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Sonar Sensor",
+        "description": "HCSR04 is an Ultrasonic ranging module which consists of a transmitter,receiver and control circuit. It has four pins for VCC, GND, Trigger and Echo.You can easily interface it with micrcontrollers and Arduino boards.",
+        "price": 399,
+        "stock": 1000,
+        "minOrder": 50,
+        "img": "https://i.ibb.co/f1dhpg5/Sonar-Sensor.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Digital Multimeter",
+        "description": "9205A Digital Multimeter with measures AC and DC voltage, DC current, resistance, electrical capacitance, diode/transistor check etc. This is the perfect addition to the tool set of any hobbyist or students who are searching for relatively cheap but good multimeters.",
+        "price": 70,
+        "stock": 1000,
+        "minOrder": 50,
+        "img": "https://i.ibb.co/JQ9CNRW/Digital-Multimeter.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Robotic Arm",
+        "description": "DFLG6DOF is a bionic robotic arm, it consists of six servo motors, corresponding to the arm, elbow, wrist (2 degrees of freedom), five joints and one rotating base in all. Each joint can move in a certain range, and the base can be rotated about 180 degrees.",
+        "price": 559,
+        "stock": 1000,
+        "minOrder": 50,
+        "img": "https://i.ibb.co/1RS43mv/Robotic-Arm.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Slide Calipers",
+        "description": "Measurement of tiny parts is now ealier with digital slide calipers. This one allows you to select your unit of measurement  between milimeter-Max 150mm and inch-Max 6 inches. Be it SMD components or other small parts, measurement is more accurate and hassle free with this slide calipers.",
+        "price": 159,
+        "stock": 1000,
+        "minOrder": 50,
+        "img": "https://i.ibb.co/X4MxnXV/Slide-Calipers.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Male To Male Jumper",
+        "description": "Breadboard friendly 1 pin dual-male jumper wire. Perfect design and adequate quality for breadboard and Arduino connection, you can use it over and over again!",
+        "price": 5,
+        "stock": 1000,
+        "minOrder": 50,
+        "img": "https://i.ibb.co/Jj9BxhC/Male-to-Male-jumper.jpg"
+    }
+]

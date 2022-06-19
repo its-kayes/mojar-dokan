@@ -1,4 +1,5 @@
 import React from "react";
+import Food from "../Food/Food";
 import HomeBanner from "./HomeBanner";
 import HomeMembership from "./HomeMembership";
 
@@ -10,6 +11,7 @@ const Home = () => {
 
       <HomeMembership> </HomeMembership>
 
+      {/* <Food> </Food> */}
     </div>
   );
 };
