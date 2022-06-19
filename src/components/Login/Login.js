@@ -6,9 +6,13 @@ const Login = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse w-full">
+        <div class="text-center lg:text-left">
+          <h1 class="text-5xl font-bold">Login now!</h1>
+          <p class="py-6">Provident cupiditate voluptatem et in.</p>
+        </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div className="card-body">
-          <h5 className="text-2xl text-center font-medium text-gray-900 dark:text-white">Log In</h5>
+            <h5 className="text-2xl text-center font-medium text-gray-900 dark:text-white">Log In</h5>
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
