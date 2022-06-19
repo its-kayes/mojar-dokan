@@ -3,7 +3,7 @@ import React from 'react';
 const UserNav = () => {
     return (
         <div>
-            <div class=" flex justify-center bg-base-100">
+            <div class=" flex justify-center bg-base-100 ">
                 <div class=" w-full text-center ">
                     <h1 className='text-2xl'>
                          20% Off all products

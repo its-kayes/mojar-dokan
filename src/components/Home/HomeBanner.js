@@ -2,8 +2,9 @@ import React from "react";
 
 const HomeBanner = () => {
   return (
-    <div>
-      <div className="flex justify-around mb-40">
+    <div className="border m-2">
+      <p className="text-3xl font-mono text-center -6"> Catagories </p>
+      <div className="flex justify-around mt-10 mb-20">
         <div className="card w-96 bg-base-100 shadow-xl image-full">
           <figure>
             <img
