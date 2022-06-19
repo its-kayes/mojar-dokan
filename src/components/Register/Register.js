@@ -5,7 +5,7 @@ import Social from "../Login/Social";
 const Register = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="hero-content flex-col lg:flex-row-reverse w-full">
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div className="card-body">
             <h5 className="text-2xl text-center font-medium text-gray-900 dark:text-white">
@@ -63,7 +63,7 @@ const Register = () => {
             <div className="form-control mt-6">
               <button className="btn btn-primary">Register</button>
             </div>
-            <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
+            <div className="text-sm font-medium text-gray-500 dark:text-gray-300 text-center">
               Not registered?
               <Link to="/login">
                 {" "}
