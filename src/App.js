@@ -1,9 +1,11 @@
 import './App.css';
+import Home from './components/Home/Home';
+import Login from './components/Login/Login';
 
 function App() {
   return (
     <div>
-      <h1 className=' text-center text-5xl font-mono font-bold '> Does it work ? ok now</h1>
+      <Home></Home>
     </div>
   );
 }
