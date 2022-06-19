@@ -36,11 +36,15 @@ const Login = () => {
             <div className="form-control mt-6">
               <button className="btn btn-primary">Login</button>
             </div>
-            <label className="label">
-              <Link to="/register" className="label-text-alt link link-hover">
-                Not registered? Create account
+            <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
+              Not registered?
+              <Link to="/register">
+                {" "}
+                <span className="text-blue-700 hover:underline dark:text-blue-500">
+                  Create account
+                </span>{" "}
               </Link>
-            </label>
+            </div>
             <hr />
             <Social></Social>
           </div>

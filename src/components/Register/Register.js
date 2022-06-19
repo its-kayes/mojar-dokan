@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Social from "../Login/Social";
 
 const Register = () => {
@@ -59,12 +60,16 @@ const Register = () => {
             <div className="form-control mt-6">
               <button className="btn btn-primary">Register</button>
             </div>
-            <div className="">
-              <p className="text-center">
-                <hr />
-                or <hr />
-              </p>
+            <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
+              Not registered?
+              <Link to="/login">
+                {" "}
+                <span className="text-blue-700 hover:underline dark:text-blue-500">
+                  Please Login
+                </span>{" "}
+              </Link>
             </div>
+
             <Social></Social>
           </div>
         </div>
