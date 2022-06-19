@@ -4,11 +4,8 @@ import Login from './components/Login/Login';
 import Navbar from './components/Navbar/Navbar';
 import UserNav from './components/Navbar/UserNav';
 import Home from './components/Home/Home';
-<<<<<<< HEAD
 import Footer from './components/Shared/Footer';
-=======
 import Register from './components/Register/Register';
->>>>>>> joy
 
 function App() {
   return (
@@ -20,11 +17,7 @@ function App() {
         <Route path='login' element={<Login> </Login>}>  </Route>
         <Route path='register' element={<Register></Register>}></Route>
       </Routes>
-<<<<<<< HEAD
       <Footer> </Footer>
-=======
-      
->>>>>>> joy
     </div>
   );
 }
