@@ -1,11 +1,29 @@
-import { useAuthState } from 'react-firebase-hooks/auth';
+import { useAuthState, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import React from "react";
 import { Link } from "react-router-dom";
 import Social from "./Social";
+import auth from "../../firebase.init";
+import { async } from '@firebase/util';
 
 const Login = () => {
 
-  
+  const [
+    signInWithEmailAndPassword,
+    user,
+    loading,
+    error,
+  ] = useSignInWithEmailAndPassword(auth);
+
+  let userLogin = async event => {
+    event.preventDefault();
+    let email = event.target.email.value;
+    let pass = event.target.pass.value;
+
+    await signInWithEmailAndPassword(email, pass);
+
+    console.log({email: email, pass: pass});
+
+  }
 
 
   return (
@@ -15,7 +33,7 @@ const Login = () => {
           <h1 class="text-5xl font-bold">Login now!</h1>
           <p class="py-6">Provident cupiditate voluptatem et in.</p>
         </div>
-        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+        <form onSubmit={userLogin} className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div className="card-body">
             <h5 className="text-2xl text-center font-medium text-gray-900 dark:text-white">Log In</h5>
             <div className="form-control">
@@ -23,7 +41,8 @@ const Login = () => {
                 <span className="label-text">Email</span>
               </label>
               <input
-                type="text"
+                type="email"
+                name='email'
                 placeholder="email"
                 className="input input-bordered"
               />
@@ -33,7 +52,8 @@ const Login = () => {
                 <span className="label-text">Password</span>
               </label>
               <input
-                type="text"
+                type="password"
+                name='pass'
                 placeholder="password"
                 className="input input-bordered"
               />
@@ -58,7 +78,7 @@ const Login = () => {
             <hr />
             <Social></Social>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   );

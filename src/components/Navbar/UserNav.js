@@ -1,3 +1,4 @@
+import { signOut } from 'firebase/auth';
 import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
@@ -6,6 +7,13 @@ import auth from '../../firebase.init';
 const UserNav = () => {
 
     let [user, loading] = useAuthState(auth);
+
+    let logOut = event => {
+        let yes = window.confirm("Are you sure ?");
+        if(yes) {
+            signOut(auth);
+        }
+    }
 
     return (
         <div>
@@ -96,7 +104,7 @@ const UserNav = () => {
                                     </a>
                                 </li>
                                 <li><a>Settings</a></li>
-                                <li><a>Logout</a></li>
+                                <li onClick={logOut}><a>Logout</a></li>
                             </ul>
                         </div>
                     </div>
