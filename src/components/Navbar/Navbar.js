@@ -29,7 +29,7 @@ const Navbar = () => {
                             </ul>
                         </div> */}
                         {/* <Link to='home' class="btn btn-ghost normal-case text-xl">Mojar Shop </Link> */}
-                        <Link to='home' href="https://flowbite.com" class="flex items-center">
+                        <Link to='/' href="https://flowbite.com" class="flex items-center">
                             <img src="mojar_dokan.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
                             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Mojar Dokan </span>
                         </Link>
