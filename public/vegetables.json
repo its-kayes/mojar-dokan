@@ -2,7 +2,7 @@
     {
         "id": "1",
         "postId": 3,
-        "name": "Derosh(Ladies-Finger)",
+        "name": "Derosh",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
         "price": 40,
         "stock": 50,
@@ -22,7 +22,7 @@
     {
         "id": "3",
         "postId": 3,
-        "name": "Kacha-Morich(Green-Chilli",
+        "name": "Morich",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
         "price": 150,
         "stock": 100,
@@ -31,7 +31,7 @@
     },
     {
         "id": "4",
-        "name": "Karul",
+        "name": "Kakrul",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
         "price": 49,
         "stock": 100,
@@ -58,7 +58,7 @@
     },
     {
         "id": "7",
-        "name": "Potato(Gol-Alo)",
+        "name": "Potato",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
         "price": 30,
         "stock": 170,
@@ -76,7 +76,7 @@
     },
     {
         "id": "9",
-        "name": "Red Tomato (Paka-Tomato)",
+        "name": "Red Tomato ",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
         "price": 110,
         "stock": 100,
