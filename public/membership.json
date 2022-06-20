@@ -3,18 +3,21 @@
         "type": "Gold VIP Card",
         "discount": 35,
         "cost": 2999,
-        "duration": 30
+        "duration": 30,
+        "img": "https://i.ibb.co/5rPtqZQ/tweenty.png"
     },
     {
         "type": "Platinum VIP Card",
         "discount": 20,
         "cost": 1999,
-        "duration": 30
+        "duration": 30,
+        "img":"https://i.ibb.co/KyLGJk9/thirtyfive.png"
     },
     {
         "type": "Silver VIP Card",
         "discount": 10,
         "cost": 1500,
-        "duration": 30
+        "duration": 30,
+        "img":"https://i.ibb.co/6JZhf2p/ten.png"
     }
 ]
