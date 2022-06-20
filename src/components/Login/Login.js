@@ -33,8 +33,8 @@ const Login = () => {
           <h1 class="text-5xl font-bold">Login now!</h1>
           <p class="py-6">Provident cupiditate voluptatem et in.</p>
         </div>
-        <form onSubmit={userLogin} className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-          <div className="card-body">
+        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+          <form onSubmit={userLogin} className="card-body">
             <h5 className="text-2xl text-center font-medium text-gray-900 dark:text-white">Log In</h5>
             <div className="form-control">
               <label className="label">
@@ -75,12 +75,15 @@ const Login = () => {
                 </span>{" "}
               </Link>
             </div>
+          </form>
+          <div>
             <hr />
-            <Social></Social>
+          <Social></Social>
           </div>
-        </form>
+        </div>
       </div>
     </div>
+    
   );
 };
 
