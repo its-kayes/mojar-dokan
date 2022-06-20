@@ -13,6 +13,11 @@ const HomeBanner = () => {
     toast.error(p);
     
   }
+  let freshVegetables = (event) => {
+    navigate('/vegetables');
+    toast.error(p);
+    
+  }
 
   return (
     <div className="border m-2 p-8">
@@ -23,11 +28,11 @@ const HomeBanner = () => {
       <div className="flex justify-around mt-10 mb-20">
         <div onClick={freshFood} className="card w-96 h-full bg-base-100 shadow-xl image-full">
           <figure>
-            <img src="vegetables.jpg" alt="Vegetables" />
+            <img src="fruits.webp" alt="Vegetables" />
           </figure>
           <div className="card-body">
             <h2 className="flex justify-center items-center h-full text-3xl font-bold">
-              Fresh Vegetables
+              Fruits
             </h2>
           </div>
         </div>
@@ -45,13 +50,13 @@ const HomeBanner = () => {
         </div>
       </div>
       <div className="flex justify-around">
-        <div className="card w-96 bg-base-100 shadow-xl image-full">
+        <div onClick={freshVegetables} className="card w-96 bg-base-100 shadow-xl image-full">
           <figure>
-            <img src="books.jpg" alt="Books" />
+            <img src="vegetables.jpg" alt="Books" />
           </figure>
           <div className="card-body">
             <h2 className="flex justify-center items-center h-full text-3xl font-bold">
-              Books
+              Vegetables
             </h2>
           </div>
         </div>
