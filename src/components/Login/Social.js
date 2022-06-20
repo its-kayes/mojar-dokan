@@ -9,6 +9,10 @@ const Social = () => {
   const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
   const [signInWithGithub, gitUser, gitLoading, gitError] = useSignInWithGithub(auth);
 
+  if(gitLoading || loading) {
+    return <loading> </loading>
+  }
+
   if(gitError) {
     console.log(gitError);
   }
