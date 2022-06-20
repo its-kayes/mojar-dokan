@@ -26,7 +26,7 @@ const HomeBanner = () => {
         Catagories{" "}
       </p>
       <div className="flex justify-around mt-10 mb-20">
-        <div onClick={freshFood} className="card w-96 h-full bg-base-100 shadow-xl image-full">
+        <div onClick={freshFood} className="card w-96 h-full bg-base-100 shadow-xl image-full cursor-pointer">
           <figure>
             <img src="fruits.webp" alt="Vegetables" />
           </figure>
@@ -36,7 +36,7 @@ const HomeBanner = () => {
             </h2>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl image-full">
+        <div className="card w-96 bg-base-100 shadow-xl image-full cursor-pointer">
           <figure>
             <img src="necessaryitems.jpg" alt="Necessary" />
           </figure>
@@ -50,7 +50,7 @@ const HomeBanner = () => {
         </div>
       </div>
       <div className="flex justify-around">
-        <div onClick={freshVegetables} className="card w-96 bg-base-100 shadow-xl image-full">
+        <div onClick={freshVegetables} className="card w-96 bg-base-100 shadow-xl image-full cursor-pointer">
           <figure>
             <img src="vegetables.jpg" alt="Books" />
           </figure>
@@ -60,7 +60,7 @@ const HomeBanner = () => {
             </h2>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl image-full">
+        <div className="card w-96 bg-base-100 shadow-xl image-full cursor-pointer">
           <figure>
             <img src="newspapers-image.jpg" alt="NewsPapers" />
           </figure>
