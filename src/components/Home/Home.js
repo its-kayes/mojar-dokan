@@ -28,7 +28,7 @@ const Home = () => {
 
       {/* <Vegetables> </Vegetables> */}
 
-      <Membership> </Membership>
+      {/* <Membership> </Membership> */}
       
     </div>
   );
