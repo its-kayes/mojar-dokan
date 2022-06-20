@@ -23,7 +23,7 @@ const Home = () => {
       <HomeMembership> </HomeMembership>
 
       {/* <Food> </Food> */}
-      <Vegetables></Vegetables>
+      {/* <Vegetables></Vegetables> */}
       
     </div>
   );
