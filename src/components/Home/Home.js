@@ -23,7 +23,11 @@ const Home = () => {
       <HomeMembership> </HomeMembership>
 
       {/* <Food> </Food> */}
+<<<<<<< HEAD
       <Vegetables></Vegetables>
+=======
+      
+>>>>>>> 779e0bce3f663f9d25ea91c146740de9e4cbcb85
     </div>
   );
 };

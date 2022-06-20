@@ -1,12 +1,17 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { toast } from 'react-toastify';
+
+let p = <div className="text-red-700 font-bold font-mono text-lg"> 5 % OFF TO ALL PRODUCT </div>
 
 const HomeBanner = () => {
 
   let navigate = useNavigate();
 
   let freshFood = (event) => {
-    navigate('/food')
+    navigate('/food');
+    toast.error(p);
+    
   }
 
   return (
