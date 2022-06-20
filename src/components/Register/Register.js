@@ -49,8 +49,8 @@ const Register = () => {
       img: userImg,
     };
     await createUserWithEmailAndPassword(email, pass);
-    // await updateProfile({ displayName: name, photoURL: userImg });
-    await updateProfile({ displayName: name });
+    await updateProfile({ displayName: name, photoURL: userImg });
+    // await updateProfile({ displayName: name });
     // createUserWithEmailAndPassword(user)
     console.log(userDetails);
   };

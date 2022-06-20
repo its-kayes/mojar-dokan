@@ -1,6 +1,17 @@
+import { GoogleAuthProvider } from "firebase/auth";
 import React from "react";
+import { useSignInWithGoogle } from "react-firebase-hooks/auth";
+import auth from "../../firebase.init";
+
 
 const Social = () => {
+
+  const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+  
+// const googleLogIn = () =>{
+//   signInWithGoogle()
+// }
+
   return (
     <div>
       <div className="mt-10 flex flex-col-reverse items-center ">
@@ -28,7 +39,7 @@ const Social = () => {
           </button>
         </div>
         <div>
-          <button
+          <button  onClick={() => signInWithGoogle()}
             type="button"
             className="w-full text-white bg-[#4285F4] hover:bg-[#4285F4]/90 focus:ring-4 focus:outline-none focus:ring-[#4285F4]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#4285F4]/55 mr-2 mb-2"
           >
