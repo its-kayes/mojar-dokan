@@ -1,0 +1,95 @@
+[
+    {
+        "id": "1",
+        "postId": 3,
+        "name": "Derosh(Ladies-Finger)",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
+        "price": 40,
+        "stock": 50,
+        "size": 1,
+        "img": "https://i.ibb.co/1MPQVb2/derosh.webp"
+    },
+    {
+        "id": "2",
+        "postId": 3,
+        "name": "Jali-Kumra",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
+        "price": 30,
+        "stock": 100,
+        "size": 1,
+        "img": "https://i.ibb.co/2Mh6WNy/jalikumra.webp"
+    },
+    {
+        "id": "3",
+        "postId": 3,
+        "name": "Kacha-Morich(Green-Chilli",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
+        "price": 150,
+        "stock": 100,
+        "size": 1,
+        "img": "https://i.ibb.co/qpMRGhS/kacha-morich.webp"
+    },
+    {
+        "id": "4",
+        "name": "Karul",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
+        "price": 49,
+        "stock": 100,
+        "size": 1,
+        "img": "https://i.ibb.co/j6LRBDD/kakrol.webp"
+    },
+    {
+        "id": "5",
+        "name": "Gul-Begun",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
+        "price": 80,
+        "stock": 100,
+        "size": 1,
+        "img": "https://i.ibb.co/phJWSLY/kalo-gol-begun.webp"
+    },
+    {
+        "id": "6",
+        "name": "Lal-Shak",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
+        "price": 40,
+        "stock": 30,
+        "size": 1,
+        "img": "https://i.ibb.co/hYbvy3K/lal-shak.webp"
+    },
+    {
+        "id": "7",
+        "name": "Potato(Gol-Alo)",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
+        "price": 30,
+        "stock": 170,
+        "size": 1,
+        "img": "https://i.ibb.co/JvGkpgN/potato.webp"
+    },
+    {
+        "id": "8",
+        "name": "Potol",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
+        "price": 50,
+        "stock": 100,
+        "size": 1,
+        "img": "https://i.ibb.co/nDbT3Nk/potol.webp"
+    },
+    {
+        "id": "9",
+        "name": "Red Tomato (Paka-Tomato)",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
+        "price": 110,
+        "stock": 100,
+        "size": 1,
+        "img": "https://i.ibb.co/0qM8ZTR/red-tomato.webp"
+    },
+    {
+        "id": "10",
+        "name": "Korola",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut.",
+        "price": 0,
+        "stock": 100,
+        "size": 1,
+        "img": "https://i.ibb.co/qYHwCHR/uchche.webp"
+    }
+]
