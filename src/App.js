@@ -1,4 +1,6 @@
 import { Routes, Route, Link } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import Login from './components/Login/Login';
 import Navbar from './components/Navbar/Navbar';
@@ -20,6 +22,7 @@ function App() {
         <Route path='/register' element={<Register></Register>}></Route>
       </Routes>
       <Footer> </Footer>
+      <ToastContainer />
     </div>
   );
 }
