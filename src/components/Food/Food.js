@@ -20,13 +20,16 @@ const Food = () => {
                             <figure><img className='w-52 h-52' src={food.img} alt="Shoes" /></figure>
                             <div class="card-body">
                                 <h2 class="card-title">
-                                    Shoes!
-                                    <div class="badge badge-secondary">NEW</div>
+                                    {food.name}!
+                                    <div class="badge badge-secondary"> {food.price} tk / {food.size} p</div>
                                 </h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div class="card-actions justify-end">
-                                    <div class="badge badge-outline">Fashion</div>
-                                    <div class="badge badge-outline">Products</div>
+                                {/* <i>{food.description}</i> */}
+                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, maiores. </p>
+                                <div class="card-actions justify-center font-bold pt-3 ">
+                                    {/* <div class="badge badge-outline">Fashion</div> */}
+                                    <button class="badge badge-outline py-4 px-5 hover:bg-red-700 hover:text-white"> <i class="fa-solid fa-cart-shopping pr-3"></i>
+                                        Add to bag
+                                    </button>
                                 </div>
                             </div>
                         </div>
