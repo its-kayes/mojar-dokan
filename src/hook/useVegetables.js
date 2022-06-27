@@ -3,9 +3,15 @@ import { useQuery } from "react-query";
 import Loading from "../components/Shared/Loading";
 
 const useVegetables = () => {
+
+  // let {data: vegetables,isLoading} = useQuery("vegetables", () =>
+  //   fetch("vegetables.json").then((res) => res.json())
+  // );
+
   let {data: vegetables,isLoading} = useQuery("vegetables", () =>
-    fetch("vegetables.json").then((res) => res.json())
+    fetch("http://localhost:8000/vegetables").then((res) => res.json())
   );
+
   if(isLoading){
     return <Loading></Loading>
   }
