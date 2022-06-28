@@ -1,95 +1,95 @@
 [
-    {
-        "id": "1",
-        "postId": 3,
-        "name": "Paka Pape",
-        "description": "Arduino Uno is the best board to get started with embedded system programming. If you are a beginner in this field, then this Arduino Uno can be a robust board that you can start playing with it. On this open-source Arduino platform, you may find the full schematic and PCB layout online ",
-        "price": 70,
-        "stock": 100,
-        "size": 1,
-        "img": "https://i.ibb.co/N6GmShq/paka-pape.webp"
-    },
-    {
-        "id": "2",
-        "postId": 3,
-        "name": "Malta",
-        "description": "Raspberry Pi Pico is a low-cost, high-performance microcontroller board with flexible digital interfaces. Microcontrollers are tiny computers, but they tend to lack large volume storage and peripheral devices that you can plug in (for example, keyboards or monitors).",
-        "price": 50,
-        "stock": 1000,
-        "size": 1,
-        "img": "https://i.ibb.co/Hr9q95Y/malta.webp"
-    },
-    {
-        "id": "3",
-        "postId": 3,
-        "name": "Komola",
-        "description": "ts casing is made of rustproof material mainly steel with some protective coatings, with few plastic parts. It is a high torque high power device for mid to high-power applications generally in robotics, quadcopters, and industrials.",
-        "price": 40,
-        "stock": 1000,
-        "size": 1,
-        "img": "https://i.ibb.co/ZmnXvrH/komola.webp"
-    },
-    {
-        "id": "4",
-        "name": "Kamranga",
-        "description": "Product details of LODESTAR Professional Soldering Iron  60W. Handle with lights, non-slip rubber sheath, more comfortable to use it. High insulated ceramic heater provides fast heat conduction. Use burn-proof silicone line, more secure.",
-        "price": 15,
-        "stock": 1000,
-        "size": 1,
-        "img": "https://i.ibb.co/GHgCp35/kamranga.webp"
-    },
-    {
-        "id": "5",
-        "name": "Guava",
-        "description": "This case is a 2 part Aluminum case for Raspberry pi 4 (All RAM variants) with Double Cooling Fan. The whole top part of the case acts as heasink. Use the thermal pads provided with this case to ensure proper thermal contact between the top part of the case and raspberry pi SOC & RAM.",
-        "price": 5,
-        "stock": 1000,
-        "size": 1,
-        "img": "https://i.ibb.co/Hz6LR9v/guava.webp"
-    },
-    {
-        "id": "6",
-        "name": "Daab",
-        "description": "HCSR04 is an Ultrasonic ranging module which consists of a transmitter,receiver and control circuit. It has four pins for VCC, GND, Trigger and Echo.You can easily interface it with micrcontrollers and Arduino boards.",
-        "price": 99,
-        "stock": 1000,
-        "size": 1,
-        "img": "https://i.ibb.co/4dzwF8x/daab.webp"
-    },
-    {
-        "id": "7",
-        "name": "Coconut",
-        "description": "9205A Digital Multimeter with measures AC and DC voltage, DC current, resistance, electrical capacitance, diode/transistor check etc. This is the perfect addition to the tool set of any hobbyist or students who are searching for relatively cheap but good multimeters.",
-        "price": 120,
-        "stock": 1000,
-        "size": 1,
-        "img": "https://i.ibb.co/ScbLYk4/coconut.webp"
-    },
-    {
-        "id": "8",
-        "name": "Bel",
-        "description": "DFLG6DOF is a bionic robotic arm, it consists of six servo motors, corresponding to the arm, elbow, wrist (2 degrees of freedom), five joints and one rotating base in all. Each joint can move in a certain range, and the base can be rotated about 180 degrees.",
-        "price": 60,
-        "stock": 1000,
-        "size": 1,
-        "img": "https://i.ibb.co/mHwSLD2/bel.webp"
-    },
-    {
-        "id": "9",
-        "name": "Banana",
-        "description": "Measurement of tiny parts is now ealier with digital slide calipers. This one allows you to select your unit of measurement  between milimeter-Max 150mm and inch-Max 6 inches. Be it SMD components or other small parts, measurement is more accurate and hassle free with this slide calipers.",
-        "price": 7,
-        "stock": 1000,
-        "size": 1,
-        "img": "https://i.ibb.co/mBm74rv/banana.webp"
-    },
-    {
-        "id": "10",
-        "name": "Anaros",
-        "description": "Breadboard friendly 1 pin dual-male jumper wire. Perfect design and adequate quality for breadboard and Arduino connection, you can use it over and over again!",
-        "price": 80,
-        "stock": 1000,
-        "size": 1,
-        "img": "https://i.ibb.co/cFRVkqt/anaros.webp"
-    }
+  {
+    "id": "1",
+    "postId": 3,
+    "name": "Paka Pape",
+    "description": "Arduino Uno is the best board to get started with embedded system programming. If you are a beginner in this field, then this Arduino Uno can be a robust board that you can start playing with it. On this open-source Arduino platform, you may find the full schematic and PCB layout online ",
+    "price": 70,
+    "stock": 100,
+    "size": 1,
+    "img": "https://i.ibb.co/N6GmShq/paka-pape.webp"
+  },
+  {
+    "id": "2",
+    "postId": 3,
+    "name": "Malta",
+    "description": "Raspberry Pi Pico is a low-cost, high-performance microcontroller board with flexible digital interfaces. Microcontrollers are tiny computers, but they tend to lack large volume storage and peripheral devices that you can plug in (for example, keyboards or monitors).",
+    "price": 50,
+    "stock": 1000,
+    "size": 1,
+    "img": "https://i.ibb.co/Hr9q95Y/malta.webp"
+  },
+  {
+    "id": "3",
+    "postId": 3,
+    "name": "Komola",
+    "description": "ts casing is made of rustproof material mainly steel with some protective coatings, with few plastic parts. It is a high torque high power device for mid to high-power applications generally in robotics, quadcopters, and industrials.",
+    "price": 40,
+    "stock": 1000,
+    "size": 1,
+    "img": "https://i.ibb.co/ZmnXvrH/komola.webp"
+  },
+  {
+    "id": "4",
+    "name": "Kamranga",
+    "description": "Product details of LODESTAR Professional Soldering Iron  60W. Handle with lights, non-slip rubber sheath, more comfortable to use it. High insulated ceramic heater provides fast heat conduction. Use burn-proof silicone line, more secure.",
+    "price": 15,
+    "stock": 1000,
+    "size": 1,
+    "img": "https://i.ibb.co/GHgCp35/kamranga.webp"
+  },
+  {
+    "id": "5",
+    "name": "Guava",
+    "description": "This case is a 2 part Aluminum case for Raspberry pi 4 (All RAM variants) with Double Cooling Fan. The whole top part of the case acts as heasink. Use the thermal pads provided with this case to ensure proper thermal contact between the top part of the case and raspberry pi SOC & RAM.",
+    "price": 5,
+    "stock": 1000,
+    "size": 1,
+    "img": "https://i.ibb.co/Hz6LR9v/guava.webp"
+  },
+  {
+    "id": "6",
+    "name": "Daab",
+    "description": "HCSR04 is an Ultrasonic ranging module which consists of a transmitter,receiver and control circuit. It has four pins for VCC, GND, Trigger and Echo.You can easily interface it with micrcontrollers and Arduino boards.",
+    "price": 99,
+    "stock": 1000,
+    "size": 1,
+    "img": "https://i.ibb.co/4dzwF8x/daab.webp"
+  },
+  {
+    "id": "7",
+    "name": "Coconut",
+    "description": "9205A Digital Multimeter with measures AC and DC voltage, DC current, resistance, electrical capacitance, diode/transistor check etc. This is the perfect addition to the tool set of any hobbyist or students who are searching for relatively cheap but good multimeters.",
+    "price": 120,
+    "stock": 1000,
+    "size": 1,
+    "img": "https://i.ibb.co/ScbLYk4/coconut.webp"
+  },
+  {
+    "id": "8",
+    "name": "Bel",
+    "description": "DFLG6DOF is a bionic robotic arm, it consists of six servo motors, corresponding to the arm, elbow, wrist (2 degrees of freedom), five joints and one rotating base in all. Each joint can move in a certain range, and the base can be rotated about 180 degrees.",
+    "price": 60,
+    "stock": 1000,
+    "size": 1,
+    "img": "https://i.ibb.co/mHwSLD2/bel.webp"
+  },
+  {
+    "id": "9",
+    "name": "Banana",
+    "description": "Measurement of tiny parts is now ealier with digital slide calipers. This one allows you to select your unit of measurement  between milimeter-Max 150mm and inch-Max 6 inches. Be it SMD components or other small parts, measurement is more accurate and hassle free with this slide calipers.",
+    "price": 7,
+    "stock": 1000,
+    "size": 1,
+    "img": "https://i.ibb.co/mBm74rv/banana.webp"
+  },
+  {
+    "id": "10",
+    "name": "Anaros",
+    "description": "Breadboard friendly 1 pin dual-male jumper wire. Perfect design and adequate quality for breadboard and Arduino connection, you can use it over and over again!",
+    "price": 80,
+    "stock": 1000,
+    "size": 1,
+    "img": "https://i.ibb.co/cFRVkqt/anaros.webp"
+  }
 ]
