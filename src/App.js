@@ -10,6 +10,7 @@ import Footer from './components/Shared/Footer';
 import Register from './components/Register/Register';
 import Food from './components/Food/Food';
 import Vegetables from './components/Vegetables/Vegetables';
+import Membership from './components/Membership/Membership';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/' element={<Home></Home>}> </Route>
         <Route path='/food' element={<Food> </Food>}> </Route>
         <Route path='/vegetables' element={<Vegetables></Vegetables>}></Route>
+        <Route path='/membership' element={<Membership> </Membership>}> </Route>
         <Route path='/login' element={<Login> </Login>}>  </Route>
         <Route path='/register' element={<Register></Register>}></Route>
       </Routes>

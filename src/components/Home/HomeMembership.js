@@ -1,6 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const HomeMembership = () => {
+    let navigate = useNavigate();
+
+
+    let membership = event => {
+        navigate('/membership')
+    }
+
     return (
         <div className='my-20 p-4'>
             <div class="hero h-screen" style={{backgroundImage: "url(/membership_cards.png)"}}>
@@ -9,7 +17,7 @@ const HomeMembership = () => {
                     <div class="max-w-md">
                         <h1 class="mb-5 text-3xl font-bold">Get Free VIP Membership</h1>
                         <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button class="btn btn-primary">Claim Now</button>
+                        <button onClick={membership} class="btn btn-primary">Claim Now</button>
                     </div>
                 </div>
             </div>
