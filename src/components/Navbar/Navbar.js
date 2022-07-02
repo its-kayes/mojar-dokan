@@ -52,8 +52,8 @@ const Navbar = () => {
                         user ?
                             <div class="navbar-center hidden lg:flex">
                                 <ul class="menu menu-horizontal p-0">
-                                    <Link to='/'> Food Part </Link>
-                                    <Link to='/'> Vegetable Part </Link>
+                                    <Link className='font-semibold px-4 border border-sky-300 mx-3 py-1 rounded-2xl hover:bg-sky-300' to='/food'> Food Part </Link>
+                                    <Link className='font-semibold px-4 border border-sky-300 mx-3 py-1 rounded-2xl hover:bg-sky-300' to='/vegetables'> Vegetable Part </Link>
 
                                     {/* <li tabindex="0">
                                         <a>
@@ -65,7 +65,7 @@ const Navbar = () => {
                                             <li><a>Submenu 2</a></li>
                                         </ul>
                                     </li> */}
-                                    <Link to='/'> Membership </Link>
+                                    <Link className='font-semibold px-4 border border-sky-300 mx-3 py-1 rounded-2xl hover:bg-sky-300' to='/membership'> Membership </Link>
                                 </ul>
                             </div>
                             :
